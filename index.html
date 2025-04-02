@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Spiralyze Test</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <img src="/images/logo.png" alt="Logo" class="logo">
+        <div class="hamburger" onclick="toggleNav()">☰</div>
+        <div class="nav-links">
+            <a href="#">HOME</a>
+            <a href="#">ABOUT</a>
+            <a href="#">CONTACT</a>
+            <a href="#">|</a>
+            <a href="#">CALL NOW FOR A CONSULT <span style="color: #5BC8AF">123.456.7890</span></a>
+            <div class="close-icon" onclick="toggleNav()">✖</div>
+        </div>
+    </nav>
+
+    <!-- Hero section goes here -->
+    <section class="container">
+        <div class="hero">
+            <div class="overlay"></div>
+            <div class="content">
+                <div class="text-section">
+                    <div class="h1">GET AN</div>
+                    <div class="h2">INTERVENTION</div>
+                    <p>Showing greater respect to older adults can be done in several ways: acknowledging and
+                        putting to
+                        use the talents and skills of older adults, creating intergenerational initiatives, and
+                        allowing
+                        older adults to stay active and independent for as long as possible.</p>
+                </div>
+                <div class="form-container">
+                    <div class="text">
+                        Contact us
+                    </div>
+                    <form action="#">
+                        <div class="form-row">
+                            <div class="input-data">
+                                <input type="text" required>
+                                <div class="underline"></div>
+                                <label for="">First Name</label>
+                            </div>
+                            <div class="input-data">
+                                <input type="text" required>
+                                <div class="underline"></div>
+                                <label for="">Last Name</label>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="input-data">
+                                <input type="text" required>
+                                <div class="underline"></div>
+                                <label for="">Email Address</label>
+                            </div>
+                            <div class="input-data">
+                                <input type="text" required>
+                                <div class="underline"></div>
+                                <label for="">Website Name</label>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="input-data select-dropdown">
+                                <select required>
+                                    <option value="" disabled selected></option>
+                                    <option value="US">United States</option>
+                                    <option value="UK">United Kingdom</option>
+                                    <option value="IN">India</option>
+                                    <option value="CA">Canada</option>
+                                    <option value="AU">Australia</option>
+                                </select>
+                                <div class="underline"></div>
+                                <label for="">Country</label>
+                            </div>
+                        </div>
+                        <div class="form-row submit-btn">
+                            <button type="submit">
+                                <span><img src="/images/mdi_send.svg" alt=""></span> Submit
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="custom-shape-divider-bottom-1743484015">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                    <path fill="#fff" fill-opacity="1"
+                        d="M0,256L80,245.3C160,235,320,213,480,218.7C640,224,800,256,960,272C1120,288,1280,288,1360,288L1440,288L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z">
+                    </path>
+                </svg>
+            </div>
+
+        </div>
+    </section>
+    <!-- Hero section goes here -->
+    <!-- Understand section goes here -->
+    <section class="understand-section">
+        <div class="understand-content">
+            <img src="/images/aboutmask.png" alt="Older adults enjoying activities">
+            <img src="/images/about2.png" alt="Happy elderly couple">
+            <img src="/images/about3.png" alt="Group of seniors socializing">
+        </div>
+        <div class="understand-section-head">
+            <h2>WE</h2><span>UNDERSTAND</span>
+        </div>
+        <div class="understand-text">
+            <p>lder adults want to play active and meaningful roles in their lives, including as part of a social
+                network, a neighborhood, and a community. Service providers and policymakers must consider that a lack
+                of sense of purpose can become problematic as people age. Engaging them in leisure activities and
+                volunteer work is important.</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta debitis aliquid cupiditate veritatis
+                quisquam
+                rem exercitationem atque sequi beatae quaerat veniam aliquam perferendis laboriosam, ab molestiae non
+                quo
+                maxime a, rerum numquam cum nihil? Est ipsa provident deserunt vel, cumque rem officiis ...</p>
+
+            <p>Older adults want to play active and meaningful roles in their lives, including as part of a social
+                network,
+                neighborhood, and a community...</p>
+
+            <div class="success-rate">
+                <button>92% Success Rate →</button>
+            </div>
+        </div>
+
+    </section>
+    <!-- Understand section goes here -->
+    <!-- slider section -->
+    <section class="slider-show">
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <div class="card-block">
+                    <div class="imgc">
+                        <img src="/images/lady.png">
+                    </div>
+
+                    <div class="c-content">
+                        <div class="imgc-m">
+                            <img src="/images/lady.png">
+                        </div>
+                        <h1 class="h1">Abbie Harvey</h1>
+                        <div class="cp">
+                            I have been caring for my mom & dad off and on for about 10 years now, and I know the
+                            importance of me being there for appointments. Older people need attention, love and care
+                            that
+                            they
+                            truly deserve.
+                        </div>
+                        <img class="col-img" src="/images/ticon.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="card-block">
+                    <div class="imgc">
+                        <img src="/images/lady.png">
+                    </div>
+
+                    <div class="c-content">
+                        <div class="imgc-m">
+                            <img src="/images/lady.png">
+                        </div>
+                        <h1 class="h1">John Doe</h1>
+                        <div class="cp">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, nulla.
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate quidem voluptatum, id
+                            quod amet eos?
+                        </div>
+                        <img class="col-img" src="/images/ticon.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+        </div>
+        <br>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+        </div>
+    </section>
+    <!-- slider section -->
+    <!-- organize section -->
+    <section class="organize-section">
+        <div class="organize-section-head">
+            <span class="h2">WE</span><span>can organize everything</span>
+        </div>
+
+        <div class="organize-text">
+            <p class="full-width"><b><i>Interventions</i></b> should focus on older adult’s desire for connectedness,
+                participation,
+                and independence.</p>
+
+            <p>Loneliness and social isolation are growing public health concerns in our aging society. Whilst these
+                experiences occur across the life span, 50% of individuals aged over 60 are at risk of social isolation
+                and one-third will experience some degree of loneliness later in life. It is vital to reduce loneliness
+                and social isolation among older adults.</p>
+
+            <p>The methodology framework proposed by Asked and O’Malley and further developed by Levac, et al. was used
+                to guide the scoping review process. A total of 33 reviews met the inclusion criteria, evaluating a
+                range of interventions targeted at older people residing in the community or institutionalized settings.
+            </p>
+        </div>
+
+        <div class="organize-tiles">
+            <div class="t-text">Needs Assessment
+                <span class="info"><img src="/images/info.png" alt=""></span>
+                <span class="i-para">We assess individual needs to create personalized care plans.</span>
+            </div>
+
+            <div class="t-text">Treatment & Placement
+                <span class="info"><img src="/images/info.png" alt=""></span>
+                <span class="i-para">We help find the best care options suited to individual needs.</span>
+            </div>
+
+            <div class="t-text">Transportation & Logistics
+                <span class="info"><img src="/images/info.png" alt=""></span>
+                <span class="i-para">We organize safe and efficient transportation solutions.</span>
+            </div>
+
+            <div class="t-text">Insurance Advocacy
+                <span class="info"><img src="/images/info.png" alt=""></span>
+                <span class="i-para">We assist in navigating insurance policies and claims.</span>
+            </div>
+
+            <div class="t-text">Employment Advocacy
+                <span class="info"><img src="/images/info.png" alt=""></span>
+                <span class="i-para">Supporting older adults in workplace rights and job opportunities.</span>
+            </div>
+
+            <div class="t-text">Aftercare Planning
+                <span class="info"><img src="/images/info.png" alt=""></span>
+                <span class="i-para">Providing long-term support and follow-up care strategies.</span>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- organize section -->
+    <!-- video section -->
+    <section class="vid-section">
+        <div class="left-content">
+            <div class="cont-l">
+                <div class="section-head">
+                    <h2>WATCH</h2><span>THE VIDEO</span>
+                </div>
+                <div class="info-content">
+                    <div class="check-img"><img src="/images/check.png" alt=""></div>
+                    <div class="check-info">
+                        <h3>Need Assessment</h3>
+                        <p>The Advocacy Evaluation Toolkit contains the instruments used to collect data for evaluating
+                            the Consumer Voices for Coverage program. </p>
+                    </div>
+                </div>
+                <div class="info-content">
+                    <div class="check-img"><img src="/images/check.png" alt=""></div>
+                    <div class="check-info">
+                        <h3>Insuarance Advocacy</h3>
+                        <p>We are committed to advocating for appropriate coverage and payment policies.</p>
+                    </div>
+                </div>
+                <div class="info-content">
+                    <div class="check-img"><img src="/images/check.png" alt=""></div>
+                    <div class="check-info">
+                        <h3>Treatment Planning & Placement</h3>
+                        <p>Patients can better understand medical procedures, discharge instructions, etc.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right-content">
+            <div class="vid-img">
+                <div class="vid-container">
+                    <img src="/images/vid.png" alt=""> <!-- I didn't had the video so keeping the source img here  -->
+                    <!-- <div class="button">O</div> -->
+                </div>
+            </div>
+            <div class="play">▶</div>
+            <div class="f-logo">
+                <img src="/images/logo.png" alt="">
+            </div>
+        </div>
+
+        <div class="lahar">
+            <svg width="100%" height="100%" id="svg" viewBox="0 0 1440 390" xmlns="http://www.w3.org/2000/svg"
+                class="transition duration-300 ease-in-out delay-150">
+                <style>
+                    .path-0 {
+                        animation: pathAnim-0 4s;
+                        animation-timing-function: linear;
+                        animation-iteration-count: infinite;
+                    }
+
+                    @keyframes pathAnim-0 {
+                        0% {
+                            d: path("M 0,400 L 0,225 C 129.46666666666664,237.66666666666666 258.9333333333333,250.33333333333331 431,236 C 603.0666666666667,221.66666666666669 817.7333333333333,180.33333333333331 993,149 C 1168.2666666666667,117.66666666666667 1304.1333333333332,96.33333333333334 1440,75 L 1440,400 L 0,400 Z");
+                        }
+
+                        25% {
+                            d: path("M 0,400 L 0,225 C 155.86666666666667,203.13333333333333 311.73333333333335,181.26666666666668 466,168 C 620.2666666666667,154.73333333333332 772.9333333333334,150.06666666666666 935,136 C 1097.0666666666666,121.93333333333334 1268.5333333333333,98.46666666666667 1440,75 L 1440,400 L 0,400 Z");
+                        }
+
+                        50% {
+                            d: path("M 0,400 L 0,225 C 181.06666666666666,244.2 362.1333333333333,263.4 502,230 C 641.8666666666667,196.6 740.5333333333333,110.6 890,76 C 1039.4666666666667,41.400000000000006 1239.7333333333333,58.2 1440,75 L 1440,400 L 0,400 Z");
+                        }
+
+                        75% {
+                            d: path("M 0,400 L 0,225 C 155.86666666666667,221.39999999999998 311.73333333333335,217.79999999999998 455,212 C 598.2666666666667,206.20000000000002 728.9333333333334,198.2 891,175 C 1053.0666666666666,151.8 1246.5333333333333,113.4 1440,75 L 1440,400 L 0,400 Z");
+                        }
+
+                        100% {
+                            d: path("M 0,400 L 0,225 C 129.46666666666664,237.66666666666666 258.9333333333333,250.33333333333331 431,236 C 603.0666666666667,221.66666666666669 817.7333333333333,180.33333333333331 993,149 C 1168.2666666666667,117.66666666666667 1304.1333333333332,96.33333333333334 1440,75 L 1440,400 L 0,400 Z");
+                        }
+                    }
+                </style>
+                <path
+                    d="M 0,400 L 0,225 C 129.46666666666664,237.66666666666666 258.9333333333333,250.33333333333331 431,236 C 603.0666666666667,221.66666666666669 817.7333333333333,180.33333333333331 993,149 C 1168.2666666666667,117.66666666666667 1304.1333333333332,96.33333333333334 1440,75 L 1440,400 L 0,400 Z"
+                    stroke="none" stroke-width="0" fill="#297c6b" fill-opacity="1"
+                    class="transition-all duration-300 ease-in-out delay-150 path-0" transform="rotate(-180 720 200)">
+                </path>
+            </svg>
+        </div>
+    </section>
+    <!-- video section -->
+    <!-- footer part -->
+    <footer class="footer">
+        <div class="f-content">
+            <p>@2021 Get an Intervention Inc. All rights reserved.</p>
+            <p>Privacy Policy | Terms of use | Site Map</p>
+        </div>
+    </footer>
+    <!-- footer part -->
+
+    <script src="script.js"></script>
+</body>
+
+</html>
